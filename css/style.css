@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(69, 68, 68);
+}
+
+header {
+    padding: 100px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 50px;
+}
+
+div{
+    padding: 100px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 1px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #00bcd4;
+}
+
+.horizontal{
+    display: flex;   
+}
+
+.card {
+    width: 275px;
+    border: 0.5px solid #959393;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 20px; 
+    text-align: center;
+  }
+  
+  .card img {
+    width: 200px;
+    height: auto;
+    justify-content: center;
+  }
+  
+  .card-content {
+    padding: 20px;
+    text-align: center;
+    font-size: 25px; 
+  font-weight: bold; 
+
+  }
+  
+  .card-content h2 {
+    margin-top: 0;
+  }
+  
+  .card-content p {
+    margin-bottom: 10px;
+  }
+  
+  .card-content a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+
+  footer{
+    padding: 10px;
+    text-align: center;
+    background: #414141;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #383838, #353636, #2b2b2b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #313131, #323232, #2d2d2d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.contenedor-imagen {
+  position: relative;
+  display: inline-block;
+}
+
+.descripcion {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(92, 92, 92, 0.7);
+  color: #fcaef5;
+  padding: 10px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-family: 'Courier New', Courier, monospace;;
+}
+
+.contenedor-imagen:hover .descripcion {
+  opacity: 1;
+}
+
+.titulo{
+  justify-content: center;
+  font-size: 80px;
+  padding: 0%;  
+}
